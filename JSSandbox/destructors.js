@@ -6,7 +6,7 @@ let a, b;
 [a, b, c, ...rest] = [100, 200, 300, 400, 500];
 
 ({ a, b } = { a: 100, b: 200, c: 300, d: 400, e: 500 });
-({ a, b, ...rest} = { a: 100, b: 200, c: 300, d: 400, e: 500 });
+({ a, b, ...rest } = { a: 100, b: 200, c: 300, d: 400, e: 500 });
 
 // Array Destructuring
 
@@ -33,10 +33,10 @@ const person = {
   age: 32,
   city: 'Miami',
   gender: 'Male',
-  sayHello: function(){
+  sayHello: function() {
     console.log('Hello');
   }
-}
+};
 
 // Old ES5
 // const name = person.name,
